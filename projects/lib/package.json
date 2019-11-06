@@ -1,0 +1,10 @@
+{
+    "name": "%DM_LIB_TPL-NPM_NAME%",
+    "version": "0.0.1",
+    "peerDependencies": {
+        "@angular/common": "^8.2.3",
+        "@angular/core": "^8.2.3",
+        "@angular/cdk": "^8.1.4",
+        "resize-observer-polyfill": "^1.5.1"
+    }
+}
