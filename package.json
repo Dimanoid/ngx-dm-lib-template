@@ -1,5 +1,5 @@
 {
-    "name": "@dimanoid/%DM_LIB_TPL-REPO_NAME%",
+    "name": "%DM_LIB_TPL-NPM_SCOPE%/%DM_LIB_TPL-NPM_NAME%",
     "version": "0.0.1",
     "scripts": {
         "build": "ng build lib",
@@ -22,7 +22,6 @@
         "@angular/platform-browser": "~8.2.13",
         "@angular/platform-browser-dynamic": "~8.2.13",
         "@angular/router": "~8.2.13",
-        "ng-zorro-antd": "^8.4.1",
         "rxjs": "~6.5.3",
         "tslib": "^1.10.0",
         "zone.js": "~0.10.2"
@@ -42,7 +41,6 @@
         "jest-preset-angular": "^8.0.0",
         "resize-observer-polyfill": "^1.5.1",
         "ng-packagr": "^5.7.1",
-        "protractor": "~5.4.2",
         "ts-node": "~8.4.1",
         "tsickle": "^0.37.0",
         "tslint": "~5.20.1",
