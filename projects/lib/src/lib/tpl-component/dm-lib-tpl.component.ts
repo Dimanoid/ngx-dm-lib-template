@@ -11,25 +11,6 @@ import { DmLibTplService } from '../dm-lib-tpl.service';
 
 export const MIN_ITEM_SIZE = 30;
 
-export interface DmTableSort {
-    colId: string;
-    order: number;
-}
-
-export interface DmTableRowEvent {
-    index: number;
-    row: any;
-    event: MouseEvent;
-}
-
-export interface DmTableHeaderEvent {
-    colId: string;
-    index: number;
-    first: boolean;
-    last: boolean;
-    event: MouseEvent;
-}
-
 @Component({
     selector: 'dm-lib-tpl-component',
     exportAs: 'dmLibTplComponent',
